@@ -1,0 +1,20 @@
+{
+  "version": "1.1.0",
+  "description": "Manage local Git repository directories.",
+  "homepage": "https://cnb.cool/dlovely-public/git-manager",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v1.1.0/gitm-x86_64-pc-windows-gnu.zip",
+      "hash": "ac971765d14ad1b01d7f0d01828605aa7c718e2931c1151fbfc90c370c8a669c"
+    }
+  },
+  "bin": "gitm.exe",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://cnb.cool/dlovely-public/git-manager/-/releases/download/v$version/gitm-x86_64-pc-windows-gnu.zip"
+      }
+    }
+  }
+}
